@@ -23,11 +23,17 @@ p {
 
 #header {
 	margin:0 1px;
+  background: #06a;
+}
+
+#header h1 {
+  border: none;
 }
 
 #bg {
 	height:36px;
-	background:url('http://img840.imageshack.us/img840/9886/87926428.gif') repeat-x;
+
+   repeat-x;
 }
 
 #main-content {
@@ -133,9 +139,11 @@ ul {
 	text-decoration:underline;
 	color:#f6dde3;
 }
-
-#logo {
+#page-name {
+  text-align: left;
+}
+/*#logo {
 	margin-bottom:20px;
 	font:normal 18px Georgia, serif;
 	color:#fa7393;
-}
+}*/
